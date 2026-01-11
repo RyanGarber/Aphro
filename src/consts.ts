@@ -1,0 +1,3 @@
+export const DISCORD_ADD_BOT = 'https://discord.com/oauth2/authorize?client_id=%{clientId}s';
+export const DISCORD_CONNECT_USER =
+  'https://discord.com/oauth2/authorize?client_id=%{clientId}s&response_type=code&redirect_uri=%{redirectUri}s&scope=identify+guilds+guilds.channels.read+presences.read+webhook.incoming+dm_channels.messages.read+applications.commands.permissions.update+messages.read+applications.commands+activities.read+relationships.read+dm_channels.read+presences.write+dm_channels.messages.write+guilds.members.read+connections+activities.write+relationships.write+role_connections.write+activities.invites.write+voice+guilds.join+gdm.join+email+openid+gateway.connect';
